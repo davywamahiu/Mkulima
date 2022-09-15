@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mkulima">
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Login" />
+        <activity android:name=".InfoMkulima" />
+        <activity android:name=".GetSeeds" />
+        <activity android:name=".GetLoans" />
+        <activity android:name=".ActiveBuyers" />
+        <activity android:name=".PotentialBuyers" />
+        <activity android:name=".AvailableBuyers" />
+        <activity android:name=".ActiveFarmers" />
+        <activity android:name=".PotentialFarmer" />
+        <activity android:name=".FarmerAvailable" />
+        <activity android:name=".About" />
+        <activity android:name=".Settings" />
+        <activity android:name=".ViewMe" />
+        <activity android:name=".Register" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

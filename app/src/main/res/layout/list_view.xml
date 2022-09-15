@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@mipmap/jonde1"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/text_dogID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="demo"
+        android:textColor="#000"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/text_dogName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="demo"
+        android:textColor="#000"
+        android:textSize="25sp"
+        app:layout_constraintTop_toBottomOf="@id/text_dogID"/>
+
+    <TextView
+        android:id="@+id/text_dogAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="demo"
+        android:textColor="#000"
+        android:textSize="25sp"
+        app:layout_constraintTop_toBottomOf="@id/text_dogName"/>
+
+    <TextView
+        android:id="@+id/text_dogWeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="demo"
+        android:textColor="#000"
+        android:textSize="25sp"
+        app:layout_constraintTop_toBottomOf="@id/text_dogAge"/>
+
+    <TextView
+        android:id="@+id/text_dogBreed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="demo"
+        android:textColor="#000"
+        android:textSize="25sp"
+        app:layout_constraintTop_toBottomOf="@id/text_dogWeight"/>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
